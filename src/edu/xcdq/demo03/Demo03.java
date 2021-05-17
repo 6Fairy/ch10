@@ -4,11 +4,12 @@ import java.io.*;
 
 
 public class Demo03 {
+    //文件的拷贝
     public static void main(String[] args)throws  Exception {
 
         //1 准备输入输出管道，指向对应的位置
          FileInputStream fi =  new FileInputStream(new File("D:\\CloudMusic"));
-         FileOutputStream  fo = new FileOutputStream (new File("C:\\Users\\17839106963\\Music"));
+         FileOutputStream  fo = new FileOutputStream (new File("C:\\eclipse2.zip"));
             //2准备缓冲区
          byte[]  buffer =new byte[1024];
          int len= 0;
